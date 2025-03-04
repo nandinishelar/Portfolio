@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandini's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins, sans-serif;
+        background-color: rgb(8, 8, 31);
+        font-size: large;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 1rem;
+    }
+
+
+    nav ul {
+        background-color: #0e0635;
+        list-style: none;
+        padding: 20px 0 20px 0;
+
+    }
+
+    nav ul li {
+        padding-left: 0%;
+        display: flex;
+        /* margin-right: 1rem; */
+        margin-left: 40px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+
+        color: rgba(27, 207, 10, 0.979);
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+  footer >  h1 {
+        color: white;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .leftsection {
+        width: 30%;
+        color: white;
+        padding: 1rem;
+        margin-left: 50px;
+    }
+
+    .rightsection {
+        width: 60%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightsection img {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .name {
+        color: rgba(121, 6, 156, 0.979);
+    }
+    .line{
+       border: 2px solid rgb(46, 45, 45);
+        width: 100%;
+        margin-top: 150px ;
+    }
+    button{
+        background-color: rgba(27, 207, 10, 0.979);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Nandini's Portfolio</h1>
+        <nav>
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="contactme.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="leftsection">
+                <h1>Hi, I'm  <span class="name">   Nandini</span></h1>
+                <p>Web Developer</p>
+                <p>UI/UX Designer</p>
+                <button>Download Resume</button>
+                <button>Github</button>
+            </div>
+            <div class="rightsection">
+                <img src="d.png" alt="">
+            </div>
+        </section>
+        <hr class="line"></hr>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
